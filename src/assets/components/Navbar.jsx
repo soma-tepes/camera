@@ -15,7 +15,7 @@ const Navbar = () => {
                     <img src={imagen} alt="" />
                 </div>
                 <div>
-                    <a href="#">Dayner's Efficiency</a>
+                    <a href="#"><span>Dayner's Efficiency</span> </a>
 
                 </div>
             </div>
