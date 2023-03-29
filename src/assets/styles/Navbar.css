@@ -3,23 +3,25 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
-   
+   padding: auto;   
 }
 
 .navbar img {
     border-radius: 20px;
+  
 }
 
 .nav_tex_img{
     display: flex;
     gap: 20px;
     align-items: center;
-    font-size: 25px;
-    
+    font-size: 35px;
+   
 
 }
 .nav_tex_img a{ 
+    width: auto;
+   
     color: aliceblue;
 }
 .nav_tex_img { 
@@ -51,11 +53,16 @@ justify-content: space-around;
     .nav_list ul {
         border: 1px solid red;
         justify-content: space-around;
-        width: 90vw;
+        width: 95vw;
         margin-top: 15px;
     }
     .nav_tex_img {
       gap: 5%;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+      width: 100%;
 
     }
     .nav_tex_img div:nth-child(2){
@@ -68,6 +75,7 @@ justify-content: space-around;
        margin: 0;
        padding: 0;
     }
+   
 }
 
 .nav_list ul li{
