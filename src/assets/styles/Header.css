@@ -1,0 +1,49 @@
+.header_title{
+    border: 1px solid white;
+   
+  font-weight: 200;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header_title_container{
+    padding: 20px;
+}
+
+.header_container_t2{
+    
+    background-image: url('../images/sistema.jpg');
+   
+    background-position-x: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.header_t2{
+    border: 1px solid red;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 1px;
+    color: black;
+    padding-left: 40px;
+
+}
+
+@media (min-width: 528px){
+
+/* tamaño normal*/
+
+
+    .header_container_t2{
+       background-position-y:-190px;
+    }
+    .header_t2{
+        border: 1px solid green;
+        font-size: 30px;
+
+    }
+}
